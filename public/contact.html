@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talleres Acuarela</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="flora-estudio">Flora Estudio</h1>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#">Talleres</a>
+                    <ul class="dropdown-content">
+                        <li><a href="./Workshops/watercolorWorkshop.html">Acuarela Botánica</a></li>
+                        <li><a href="./Workshops/bindingWorkshop.html">Encuadernación</a></li>
+                        <li><a href="./Workshops/mangrovesWorkshop.html">Manglares</a></li>
+                        <li><a href="./Workshops/medicinalPlants.html">Plantas Medicinales y Usos Ancestrales</a></li>
+                    </ul>
+                <li><a href="../aboutUs.html">Sobre Nosotras</a></li>
+                <li><a href="../contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="contactUs">Contáctanos</h2>
+    <form id="contact-form" action="/submit-form" method="post" >
+        <label for="name">Nombre</label><br>
+        <input class="contactInput" type="text" id="name" name="nombre" autocomplete="name" required><br>
+
+        <label for="email">Correo Electrónico</label> <br>
+        <input class="contactInput" type="email" id="email" name="email" autocomplete="email" required> <br>
+
+        <label for="cellphone">Número Celular</label><br>
+        <input class="contactInput" type="tel" id="cellphone" name="celular" required> <br>
+
+        <label for="message">Mensaje</label><br>
+        <textarea class="contactTextArea" id="message" name="mensaje" rows="7" required></textarea> <br>
+
+        <input class="sendBtn" type="submit" value="Enviar">
+    </form>
+
+    <footer>
+        <div>
+            <h4>Flora Estudio</h4>
+            <a target="_blank" href="https://www.instagram.com/soy.floraestudio/">
+                <img class="social-media-accs" src="./Assets/instagram.png">
+            </a>
+
+            <a target="_blank" href="https://wa.me/message/367ECVFHBNY2B1">
+                <img class="social-media-accs" src="./Assets/whatsapp.png">
+            </a>
+
+        </div>
+        <div class="logo-footer">
+            <img src="./Assets/logo.png">
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

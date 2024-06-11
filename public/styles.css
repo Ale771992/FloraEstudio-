@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*INDEX*/
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.flora-estudio {
+  font-size: 22px;
+  font-weight: 300;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style-type: none;
+}
+
+.dropdown-content li {
+  padding: 10px 20px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Hero Section*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.hero h2 {
+  font-size: 45px;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.main-image {
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/*Body*/
+body {
+  font-family: "Inter", sans-serif;
+  padding: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-left: 18px;
+}
+
+.feedbacks {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 200px;
+}
+
+.feedback-card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-card p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.customer {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.feedback-img {
+  height: 70px;
+  width: 70px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*Footer*/
+footer {
+  margin-top: 50px;
+  display: flex;
+  gap: 1100px;
+}
+
+footer h4 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.social-media-accs {
+  width: 40px;
+  height: 40px;
+}
+.logo-footer {
+  display: flex;
+}
+.logo-footer img {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+/*WORKSHOPS*/
+
+.workshop-title {
+  margin-top: 100px;
+  font-size: 30px;
+}
+.workshop-description {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 140vh;
+  font-weight: 250;
+}
+
+.workshops-images {
+  width: 70vh;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.hr-workshop {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.next-workshops {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.next-workshops h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*ABOUT US*/
+
+.member {
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+
+.member p {
+  font-size: 17px;
+  font-weight: 250;
+  width: 90vh;
+}
+
+.member h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.berePhoto {
+  width: 50vh;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+
+.alePhoto {
+  width: 50vh;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 150px;
+}   
+
+.footerMembers{
+    margin-top: 200px;
+}
+
+/*CONTACT*/
+
+.contactUs{
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 30px;
+  
+}
+#contact-form{
+    margin-top: 50px;
+    font-weight: 350;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 600px ;
+}
+
+#contact-form label{
+  margin-left: 22px;
+  height: 30px;
+}
+
+.contactInput{
+    width: 550px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    font-size: 15px;
+    font-weight: 250;
+    margin-bottom: 30px;
+    margin-left: 22px;
+}
+
+.contactTextArea{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 22px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  width: 550px;
+  height: 200px;
+  resize: none;
+  font-size: 15px;
+  font-weight: 250;
+}
+
+.sendBtn{
+  margin-top: 20px;
+  margin-left: 22px;
+  margin-bottom: 0;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  font-size: 15px;
+  font-weight: 250;
+  border: none;
+}
